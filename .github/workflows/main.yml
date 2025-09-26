@@ -17,5 +17,10 @@ jobs:
         echo "hello"
     - name: Sleep step
       run: sleep 20
+    - name: my first action
+      uses: actions/checkout@v4
+    - name: ls repo
+      run: |
+        ls
     
   
