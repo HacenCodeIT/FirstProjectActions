@@ -5,7 +5,7 @@ on:
    - main
 jobs:
   myFirstJob:
-    runs-on: ubunto-latest
+    runs-on: ubuntu-latest
     steps:
     - name: my first step
       run: printenv
