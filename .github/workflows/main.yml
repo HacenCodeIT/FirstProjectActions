@@ -1,0 +1,18 @@
+name: My First Workflow
+on:
+ push:
+  branches:
+   - main
+jobs:
+  myFirstJob:
+    runs-on: ubunto-latest
+    steps:
+    - name: my first step
+      run: printenv
+    - name: my second step
+      run:
+        echo "hello hacenCode"
+        echo "hello"
+        ls
+    
+  
