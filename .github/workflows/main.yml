@@ -14,5 +14,8 @@ jobs:
         echo "hello hacenCode"
         echo "hello"
         ls
+        echo "hello"
+    - name: Sleep step
+      run: sleep 20
     
   
